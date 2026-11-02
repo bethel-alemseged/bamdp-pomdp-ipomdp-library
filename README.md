@@ -1,32 +1,48 @@
-# bamdp-pomdp-ipomdp-library
-A Python library for decision-making under uncertainty using MDP, POMDP, BAMDP, and I-POMDP models.
-# BAMDP, POMDP and IPOMDP Library
+# Decision-Making Under Uncertainty
 
-An open-source Python library for modeling and exploring decision-making under uncertainty.
+A Python project exploring Markov decision-making models under uncertainty, with a focus on MDPs, POMDPs, BAMDPs, and IPOMDPs.
 
-## Project Overview
+## Overview
 
-This project focuses on implementing and understanding different Markov decision-making models, including:
+Decision-making often involves uncertainty about the environment, incomplete information, and the behavior of other decision-makers.
 
-- MDP: Markov Decision Processes
-- POMDP: Partially Observable Markov Decision Processes
-- BAMDP: Bayesian Adaptive Markov Decision Processes
-- IPOMDP: Interactive Partially Observable Markov Decision Processes
+This project explores mathematical models that help represent and solve these problems.
+
+## Models of Interest
+
+MDP (Markov Decision Process): Decision-making with a known state 
+POMDP (Partially Observable Markov Decision Process): Decision-making with incomplete observations 
+BAMDP (Bayesian Adaptive Markov Decision Process): Decision-making while learning unknown model parameters 
+IPOMDP (Interactive Partially Observable Markov Decision Process): Decision-making while reasoning about other agents 
 
 ## Objectives
 
-- Understand the mathematical foundations of each model.
-- Explore how these models handle uncertainty.
+- Study the mathematical foundations of each model.
+- Understand how each model represents uncertainty.
+- Explore the relationships between the models.
 - Implement reusable Python components.
-- Build a well-documented and tested library.
+- Write tests and documentation for the implementations.
 
-## Technologies
+## Technology Stack
 
 - Python
-- Git and GitHub
+- Git
+- GitHub
+
+## Development Roadmap
+
+-  Set up the Python project structure.
+-  Review MDP fundamentals.
+-  Implement a basic MDP.
+-  Study and explore POMDPs.
+-  Explore Bayesian adaptive decision-making.
+-  Study interactive POMDPs.
+-  Add tests and documentation.
 
 ## Project Status
 
-🚧 Initial setup and learning phase.
+Currently in the initial setup and learning phase.
 
-More updates will be added as the project develops.
+## Learning Approach
+
+This project combines theoretical study, practical implementation, experimentation, and software engineering practices.
